@@ -19,7 +19,7 @@ const Initial = ({ submitFunction, setUrl }) => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "https://url-shortener-kwke.onrender.com/postdata",
+        "https://url-shortener-53nl.onrender.com/postdata",
         { url: textboxValue },
         {
           headers: { "content-type": "application/x-www-form-urlencoded" },

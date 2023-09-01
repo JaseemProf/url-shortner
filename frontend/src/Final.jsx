@@ -25,7 +25,7 @@ const Final = ({ submitFunction, setUrl }) => {
             type="text"
             className="text-box"
             id="textbox"
-            value={`https://url-shortener-kwke.onrender.com//${setUrl.current}`}
+            value={`https://url-shortener-53nl.onrender.com/${setUrl.current}`}
             readOnly
           />
           <img
